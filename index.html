@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buzón de Sugerencias - Campamento La India</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Buzón de Sugerencias - Campamento La India</h1>
+    </header>
+    <main>
+        <div id="welcome-message">
+            <h2>Bienvenido al Buzón de Sugerencias</h2>
+            <p>Este sitio está destinado para mejorar los servicios que te brindamos.</p>
+            <p>Por favor, selecciona una opción del menú.</p>
+        </div>
+        <div id="menu"></div>
+        <div id="content">
+            <div id="image-container">
+                <img src="campamento fase 1.jpg" alt="Imagen ilustrativa">
+            </div>
+            <div id="content-form">
+                <label for="name-input">Cuál es tu nombre?</label>
+                <input type="text" id="name-input">
+                <label for="email-input">Cuál es tu correo electrónico?</label>
+                <input type="email" id="email-input">
+                <label for="area-input">En qué área trabajas?</label>
+                <input type="text" id="area-input">
+                <label for="report-input">Menciona tu reporte:</label>
+                <textarea id="report-input"></textarea>
+                <button id="back-button">Regresar</button>
+                <button id="save-button">Guardar</button>
+            </div>
+            <div id="content-summary">
+                <h2>Resumen del Reporte</h2>
+                <p id="name-summary"></p>
+                <p id="email-summary"></p>
+                <p id="area-summary"></p>
+                <p id="report-summary"></p>
+                <button id="send-button">Enviar</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
